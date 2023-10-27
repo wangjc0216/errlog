@@ -6,9 +6,9 @@ import (
 )
 
 func init() {
-	fmt.Println("init v1.1")
+	fmt.Println("init v2")
 }
 
 func Errorf(ctx context.Context, a ...any) {
-	fmt.Printf("errlog v1.1:%v", a)
+	fmt.Printf("errlog v2:%v", a)
 }
