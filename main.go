@@ -3,9 +3,9 @@ package errlog
 import "fmt"
 
 func init() {
-	fmt.Println("init v1.0")
+	fmt.Println("init v1.1")
 }
 
 func Errorf(a ...any) {
-	fmt.Printf("errlog v1.0:%v", a)
+	fmt.Printf("errlog v1.1:%v", a)
 }
