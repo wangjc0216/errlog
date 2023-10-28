@@ -10,5 +10,5 @@ func init() {
 }
 
 func Errorf(ctx context.Context, a ...any) {
-	fmt.Printf("errlog v2.1:%v", a)
+	fmt.Printf("errlog v2.1:%v  ", a)
 }
